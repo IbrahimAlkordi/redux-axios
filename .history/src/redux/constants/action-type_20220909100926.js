@@ -1,0 +1,16 @@
+export const LOGIN_SUCCESS = "LOGIN_SUCCESS";
+export const LOGIN_REQUESTED = "LOGIN_REQUESTED";
+export const LOGIN_FAILED = "LOGIN_FAILED";
+export const LOGOUT = "LOGOUT";
+export const ARTICLES_SUCCESS = "ARTICLES_SUCCESS";
+export const ARTICLES_REQUESTED = "ARTICLES_REQUESTED";
+export const ARTICLES_FAILED = "ARTICLES_FAILED";
+export const SEARCH_ARTICLES = "SEARCH_ARTICLES";
+
+const actions ={
+    LOGIN :"LOGIN",
+    LOGIN_SUCCESS : "LOGIN_SUCCESS",
+    LOGIN_FAILED : "LOGIN_FAILED",
+    CLEAR_LOGIN : "CLEAR_LOGIN",
+}
+export default actions;
